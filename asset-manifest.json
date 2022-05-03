@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/yorsh-page/static/css/main.3f10ab14.css",
+    "main.js": "/yorsh-page/static/js/main.d213a802.js",
+    "static/media/monigote.png": "/yorsh-page/static/media/monigote.d10d584757afc2fda1a1.png",
+    "static/media/InicioM1444X810.jpg": "/yorsh-page/static/media/InicioM1444X810.1ef10815c122ac84924f.jpg",
+    "static/media/Dibujo-TituloM1440.jpg": "/yorsh-page/static/media/Dibujo-TituloM1440.e68b3d4125077b3dc3a4.jpg",
+    "static/media/Comision-TituloM1440.jpg": "/yorsh-page/static/media/Comision-TituloM1440.38ca09c351b6b606d983.jpg",
+    "static/media/ComisionesM750.jpg": "/yorsh-page/static/media/ComisionesM750.1c6d0687a53dafead81b.jpg",
+    "static/media/DibujosM750.jpg": "/yorsh-page/static/media/DibujosM750.16db230b2fb27b1b744c.jpg",
+    "static/media/Logo.png": "/yorsh-page/static/media/Logo.aa80441af9e98bed1386.png",
+    "index.html": "/yorsh-page/index.html",
+    "main.3f10ab14.css.map": "/yorsh-page/static/css/main.3f10ab14.css.map",
+    "main.d213a802.js.map": "/yorsh-page/static/js/main.d213a802.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f10ab14.css",
+    "static/js/main.d213a802.js"
+  ]
+}
