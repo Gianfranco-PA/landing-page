@@ -1,7 +1,9 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import style from '../Comisiones.module.css'
+import { DataContext } from '../../../utils/constantes'
 
 export default function TablaPendientes() {
+  const data = useContext(DataContext)
   return (
     <table
       className={
@@ -15,18 +17,24 @@ export default function TablaPendientes() {
         </tr>
       </thead>
       <tbody>
-        <tr className={style.borde}>
-          <td>Kuma</td>
-          <td>En proceso</td>
-        </tr>
-        <tr className={style.borde}>
-          <td>Goku</td>
-          <td>En proceso</td>
-        </tr>
-        <tr className={style.borde}>
-          <td>Macarrones85</td>
-          <td>En proceso</td>
-        </tr>
+        {data.map(
+          (comision) =>
+            (comision.Estado === 'En proceso' ||
+              comision.Estado === 'No iniciado') && (
+              <tr key={comision.id} className={style.borde}>
+                <td>{comision.Para}</td>
+                <td
+                  className={
+                    comision.Estado === 'No iniciado'
+                      ? 'text-danger'
+                      : 'text-warning'
+                  }
+                >
+                  {comision.Estado}
+                </td>
+              </tr>
+            ),
+        )}
       </tbody>
     </table>
   )

@@ -1,0 +1,12 @@
+.overlay {
+    opacity: 0;
+    transition: 0.5s ease;
+}
+
+.contenedor:hover .overlay {
+    opacity: 1;
+}
+
+.imagen {
+    opacity: 1;
+}
